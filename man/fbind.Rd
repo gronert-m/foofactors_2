@@ -17,14 +17,9 @@ factor
 \description{
 Create a new factor from two existing factors, where the new factor's levels
 are the union of the levels of the input factors.
-
-Also: Hello, Alex!
 }
 \examples{
 fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
-<<<<<<< HEAD
 
 Also: Hello, Alex. Greetings from the internet.
-=======
->>>>>>> 49472a43c20bc33222ef4c2342af4691fdc5530a
 }
