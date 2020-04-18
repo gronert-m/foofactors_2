@@ -10,6 +10,8 @@
 #' @export
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+#'
+#' Also: Hello, Alex. Greetings from the internet.
 fbind <- function(a, b) {
   factor(c(as.character(a), as.character(b)))
 }
