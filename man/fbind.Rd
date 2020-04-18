@@ -20,4 +20,6 @@ are the union of the levels of the input factors.
 }
 \examples{
 fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+
+Also: Hello, Alex!
 }
