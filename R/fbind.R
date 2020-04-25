@@ -10,6 +10,7 @@
 #' @export
 #' @examples
 #' fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+#' fbind(iris$Species[c(2, 52, 102)], PlantGrowth$group[c(1, 10, 20)])
 #'
 #' Also: Hello, Alex. Greetings from the internet.
 fbind <- function(a, b) {
